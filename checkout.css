@@ -1,16 +1,16 @@
-/*********** HEADER ************/
+/* HEADER*/
 body{
     font:15px/1.5 Arial, Helvetica, sans-serif;
     padding: 0;
     margin: 0px;
 }
-/* header section */
 header {
     background: white; 
     padding-top: 30px;
     min-height: 10px;
     margin: 0px 0px;
 }
+
 /* top logo */
 header #name{
     width: 100%;
@@ -23,7 +23,6 @@ header h2 {
     font-size: 30px;
     text-decoration: none;
 }
-
 
 /* naviation bar*/
 .nav {
@@ -118,17 +117,15 @@ header a {
   align-content: stretch;
   padding-bottom: 80px;
 }
-
 #cartTitle {
   line-height: 20px;
   font-size: 20px;
   color: grey;
   font-weight: 300;
-  text-align: center;
   padding: 30px 80px 0px 80px;
-
+  font-weight: 300;
+ text-align: center;
 }
-
 .item {
   height: 200px;
   border: 0.5px solid #e8e8e8;
@@ -175,7 +172,6 @@ header a {
   color: #43484D;
   font-weight: 300;
 }
-
 button[class*=btn] {
   width: 30px;
   height: 30px;
@@ -229,7 +225,6 @@ input:focus {
   color: white;
 }
 
-
 /* wishlist*/
 #myDIV {
   width: 100px;
@@ -242,9 +237,6 @@ input:focus {
   width: 250px;
   background-color: #ccc;
 }
-
-
-
 
 /* bottom checkout*/
 #bottom{
@@ -277,7 +269,6 @@ input:focus {
     display: inline-block;
     cursor: pointer;
 }
-
 .button_1:hover {
   background-color: white;
   color: black}

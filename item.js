@@ -1,5 +1,3 @@
-
-
 function pillow(name, price, quantity, color, fill, image){
 	this.name = name;
 	this.price = price;
@@ -9,7 +7,7 @@ function pillow(name, price, quantity, color, fill, image){
 	this.image = "pink.jpg";
 }
 
-/item quantity/
+//item quantity//
 function addQuant() {
 	var x = document.getElementById("itemQuant").value;
 	x = Number(x)+1;
@@ -38,7 +36,7 @@ function dropDown() {
 	document.getElementById("myColor").classList.toggle("show");
 }
 
-/*change picture by colorselection*/
+//change picture by colorselection
 function gotoImage(select){
 	var x = document.getElementById('selectColor').value;
 	var pillowImages = document.getElementById('pillowImage').src;
@@ -53,12 +51,13 @@ function gotoImage(select){
 	}
 }
 
+// load storage
 function onload() {
     localStorage.setItem("addedItem", JSON.stringify(pillow));
   
 }
 
-
+// store pillow
 function onClick() {
 	var x = document.getElementById('selectColor').value;
 	var pillowImages = document.getElementById('pillowImage').src;
@@ -102,7 +101,7 @@ function currentPillow(n) {
 function showSlides(n) {
   var i;
   var slides = document.getElementsByClassName("similar");
-  var dots = document.getElementsByClassName("dot");
+  var dots = document.getElementsByClassName("thumb");
   if (n > slides.length) {Index = 1}
   if (n < 1) {Index = slides.length}
   for (i = 0; i < slides.length; i++) {
